@@ -1,10 +1,9 @@
 
 # Personal landing
 
+- [Preview page] (https://personal-landingpage-react.netlify.app/)
+
 Plantilla básica personal para poner información relevante sobre ti.
-
-
-
 
 ## Tech Stack
 
@@ -33,10 +32,10 @@ Install dependencies
   npm install
 ```
 
-Create file .env (Optional)
+Create file .env
 
 ```bash
-  Copy .env.example like .env
+  Copy .env.example like .env and set your own data =D
 ```
 
 Start the server
