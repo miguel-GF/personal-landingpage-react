@@ -24,7 +24,59 @@ const experienceItems = [
   },
 ]
 
+const portfolioItems = [
+  {
+    "key": 0,
+    "image_banner": "banners_title_03.png",
+    "description": "Sed turpis tincidunt id aliquet risus feugiat in. Sit amet facilisis magna etiam tempor. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus. Diam sollicitudin tempor id eu. Mollis aliquam ut porttitor leo a diam sollicitudin. Lectus proin nibh nisl condimentum id venenatis. Proin sed libero enim sed faucibus turpis in. Cursus in hac habitasse platea. Cras tincidunt lobortis feugiat vivamus. Duis tristique sollicitudin nibh sit amet commodo. Tincidunt dui ut ornare lectus sit amet. Orci dapibus ultrices in iaculis nunc sed augue. Id interdum velit laoreet id donec. Hendrerit gravida rutrum quisque non tellus orci. Ornare suspendisse sed nisi lacus sed viverra. Rhoncus mattis rhoncus urna neque viverra.",
+    "detailList": [
+      "Cras justo odio",
+      "Dapibus ac facilisis in",
+      "Morbi leo risus",
+      "Porta ac consectetur ac",
+      "Vestibulum at eros"
+    ]
+  },
+  {
+    "key": 1,
+    "image_banner": "banners_title_03.png",
+    "description": "Sed turpis tincidunt id aliquet risus feugiat in. Sit amet facilisis magna etiam tempor. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus. Diam sollicitudin tempor id eu. Mollis aliquam ut porttitor leo a diam sollicitudin. Lectus proin nibh nisl condimentum id venenatis. Proin sed libero enim sed faucibus turpis in. Cursus in hac habitasse platea. Cras tincidunt lobortis feugiat vivamus. Duis tristique sollicitudin nibh sit amet commodo. Tincidunt dui ut ornare lectus sit amet. Orci dapibus ultrices in iaculis nunc sed augue. Id interdum velit laoreet id donec. Hendrerit gravida rutrum quisque non tellus orci. Ornare suspendisse sed nisi lacus sed viverra. Rhoncus mattis rhoncus urna neque viverra.",
+    "detailList": [
+      "Cras justo odio",
+      "Dapibus ac facilisis in",
+      "Morbi leo risus",
+      "Porta ac consectetur ac",
+      "Vestibulum at eros"
+    ]
+  },
+  {
+    "key": 2,
+    "image_banner": "banners_title_03.png",
+    "description": "Sed turpis tincidunt id aliquet risus feugiat in. Sit amet facilisis magna etiam tempor. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus. Diam sollicitudin tempor id eu. Mollis aliquam ut porttitor leo a diam sollicitudin. Lectus proin nibh nisl condimentum id venenatis. Proin sed libero enim sed faucibus turpis in. Cursus in hac habitasse platea. Cras tincidunt lobortis feugiat vivamus. Duis tristique sollicitudin nibh sit amet commodo. Tincidunt dui ut ornare lectus sit amet. Orci dapibus ultrices in iaculis nunc sed augue. Id interdum velit laoreet id donec. Hendrerit gravida rutrum quisque non tellus orci. Ornare suspendisse sed nisi lacus sed viverra. Rhoncus mattis rhoncus urna neque viverra.",
+    "detailList": [
+      "Cras justo odio",
+      "Dapibus ac facilisis in",
+      "Morbi leo risus",
+      "Porta ac consectetur ac",
+      "Vestibulum at eros"
+    ]
+  },
+  {
+    "key": 3,
+    "image_banner": "banners_title_03.png",
+    "description": "Sed turpis tincidunt id aliquet risus feugiat in. Sit amet facilisis magna etiam tempor. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus. Diam sollicitudin tempor id eu. Mollis aliquam ut porttitor leo a diam sollicitudin. Lectus proin nibh nisl condimentum id venenatis. Proin sed libero enim sed faucibus turpis in. Cursus in hac habitasse platea. Cras tincidunt lobortis feugiat vivamus. Duis tristique sollicitudin nibh sit amet commodo. Tincidunt dui ut ornare lectus sit amet. Orci dapibus ultrices in iaculis nunc sed augue. Id interdum velit laoreet id donec. Hendrerit gravida rutrum quisque non tellus orci. Ornare suspendisse sed nisi lacus sed viverra. Rhoncus mattis rhoncus urna neque viverra.",
+    "detailList": [
+      "Cras justo odio",
+      "Dapibus ac facilisis in",
+      "Morbi leo risus",
+      "Porta ac consectetur ac",
+      "Vestibulum at eros"
+    ]
+  },
+]
+
 export {
   carouselItems,
-  experienceItems
+  experienceItems,
+  portfolioItems
 }
