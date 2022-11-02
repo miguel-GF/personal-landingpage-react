@@ -1,7 +1,7 @@
 import { Container, Row, Col, Card, Accordion } from "react-bootstrap"
-import CarouselProyects from "./components/CarouselProyects"
-import SocialNetworksInfo from "./components/SocialNetworksInfo"
-import { experienceItems } from "./dataLanding"
+import CarouselProyects from "../components/CarouselProyects"
+import SocialNetworksInfo from "../components/SocialNetworksInfo"
+import { experienceItems } from "../dataLanding"
 
 const Home = () => {
   return (
@@ -24,7 +24,7 @@ const Home = () => {
               <div className="py-3">
                 <Accordion defaultActiveKey="0">
                   {experienceItems.map(ei => 
-                    <Accordion.Item eventKey={ei.key}>
+                    <Accordion.Item key={ei.key} eventKey={ei.key}>
                       <Accordion.Header>{ei.title}</Accordion.Header>
                       <Accordion.Body>
                         {ei.description}

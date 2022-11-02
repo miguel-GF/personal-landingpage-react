@@ -5,9 +5,11 @@ const styleImgBanner = {
   height: "130px",
 }
 
-const Banner = () => {
+const Banner = ({ imagen, props }) => {
+  console.log(imagen)
+  console.log(props)
   return (
-    <Image className="w-100" fluid src="/img/home_banner.jpg" alt="Home banner" style={styleImgBanner} />
+    <Image className="w-100" fluid src={`/img/${imagen}`} alt="Home banner" style={styleImgBanner} />
   )
 }
 

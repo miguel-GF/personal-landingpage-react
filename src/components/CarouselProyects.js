@@ -3,8 +3,8 @@ import { carouselItems } from "../dataLanding"
 
 const CarouselProyects = () => {
   return (
-    <Carousel className="text-center justify-content-center">
-      {carouselItems.map(it => <Carousel.Item>
+    <Carousel variant="dark" className="text-center justify-content-center">
+      {carouselItems.map((it, index) => <Carousel.Item key={index} >
           <Image
             className="w-75"
             src={`/img/${it.image_name}`}
